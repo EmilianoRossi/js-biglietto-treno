@@ -11,7 +11,7 @@ let prezzoFinale;
 let euro="€";
 
 if(etaPasseggero<18){
-    sconto=prezzoPerBiglietto*0.21;
+    sconto=prezzoPerBiglietto*0.20;
     prezzoFinaleIntero=prezzoPerBiglietto-sconto;
     prezzoFinale=prezzoFinaleIntero.toFixed(2) + euro;
 }else if(etaPasseggero>65){
