@@ -9,8 +9,6 @@ let prezzoFinal;
 let sconto;
 let prezzoFinale;
 let euro="€";
-let chilometri="km";
-let anni="anni";
 
 if(etaPasseggero<18){
     sconto=prezzoPerBiglietto*0.21;
